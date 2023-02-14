@@ -3,6 +3,7 @@
     to = './'
     status = 200
 
-    from = '/generate,
-    to = "Hey there lil bro"
+[[redirects]]
+    from = '/generate',
+    to = 'Hey there lil bro',
     status = 200
