@@ -1,9 +1,4 @@
 [[redirects]]
     from = '/'
-    to = './'
-    status = 200
-
-[[redirects]]
-    from = '/generate',
-    to = 'Hey there lil bro',
+    to = 'hey there lil bro'
     status = 200
