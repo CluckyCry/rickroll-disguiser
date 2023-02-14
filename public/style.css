@@ -1,0 +1,30 @@
+header{
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+    color: red;
+    background-color: black;
+}
+
+.container{
+    text-align: center;
+}
+
+input{
+    margin-top: 10px;
+}
+
+#urlRecieve, #urlGet, #title{
+    width: 40vw;
+    height: 4vh;
+}
+
+#urlRecieve{
+    margin-left: 40px;
+}
+
+input[type='submit']{
+    padding: 3px;
+}

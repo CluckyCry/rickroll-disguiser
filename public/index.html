@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Rickroll Disguiser!</title>
+</head>
+<body>
+    <header>
+        <h1>Rickroll Disguiser v1.0</h1>
+    </header>
+    <main>
+        <p>This website allows you to disguise real links with fake links. To disguise a link, just enter your title & the real URL. Then click on submit, & you'll recieve the disguised link shortly. These links expire with-in 3 minutes!</p>
+
+        <div class="container">
+            <b>Title:</b>
+            <input type="text" id="title">
+            <br>
+            <b>URL:</b>
+            <input type="text" id="urlGet">
+            <br>
+            <input type="submit" value="Submit" id="submit">
+            <br>
+            <input type="text" readonly="true" id="urlRecieve">
+        </div>
+    </main>
+    <script src="./client.js"></script>
+</body>
+</html>
