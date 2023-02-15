@@ -125,8 +125,6 @@ function initialize() {
 
 }
 
-module.exports = app
-
 // init
 initialize();
 
