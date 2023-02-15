@@ -2,6 +2,9 @@
 import mongoose from 'mongoose'
 import express from 'express'
 import { nanoid } from 'nanoid'
+import {Info} from './information'
+
+const info = Info();
 
 const urlScehema = new mongoose.Schema({
     end_point: String,
@@ -10,7 +13,7 @@ const urlScehema = new mongoose.Schema({
 })
 
 mongoose.set('strictQuery', true) // to supress the warning
-mongoose.connect('mongodb+srv://client-299:special@cluster0.ksluvtc.mongodb.net/First?retryWrites=true&w=majority', {
+mongoose.connect(info.URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
